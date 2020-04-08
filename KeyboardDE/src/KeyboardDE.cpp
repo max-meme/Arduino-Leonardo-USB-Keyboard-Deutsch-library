@@ -473,7 +473,7 @@ uint8_t p;
 		    release(KEY_RIGHT_ALT);
 		    return p;
 
-        case 0x5C:              // \
+        case 0x5C:              //
 		    c=KEY_ESZETT;       // ß
 		    press(KEY_RIGHT_ALT);	
 		    p = press(c);  
